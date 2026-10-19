@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="it" data-lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Massimo Campitelli — Portfolio</title>
+<meta name="description" content="Portfolio di Massimo Campitelli — graphic design, branding, motion, social.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="site" id="site">
+
+<header class="header">
+  <a href="#top" class="header__name">Massimo Campitelli</a>
+  <nav class="header__nav">
+    <a href="#lavori"><span class="it">Lavori</span><span class="en">Work</span></a>
+    <a href="#chi-sono"><span class="it">Chi sono</span><span class="en">About</span></a>
+    <a href="#contatti"><span class="it">Contatti</span><span class="en">Contact</span></a>
+  </nav>
+  <div class="header__lang">
+    <button type="button" data-set-lang="it">IT</button>
+    <span class="header__sep">/</span>
+    <button type="button" data-set-lang="en">EN</button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section id="top" class="hero">
+  <div class="hero__meta label" data-reveal="up">
+    <span>Portfolio — 2022/2026</span>
+    <span class="tc">Graphic design · Branding · Motion · Social</span>
+    <span class="tr"><span class="it">Scorri ↓</span><span class="en">Scroll ↓</span></span>
+  </div>
+  <div class="hero__first">
+    <div class="mask"><div class="hero__massimo" data-reveal="line">Massimo</div></div>
+  </div>
+  <div class="mask hero__last-wrap"><div><span class="hero__campitelli" data-fit data-reveal="line" data-delay="120">Campitelli</span></div></div>
+</section>
+
+<!-- Lavori -->
+<section id="lavori" class="work">
+  <div class="section-head" data-reveal="up">
+    <h2><span class="it">Lavori selezionati</span><span class="en">Selected work</span></h2>
+    <span class="count">(05)</span>
+  </div>
+
+  <article class="card card--featured" data-project="1" data-cursor="play" data-reveal="up">
+    <div class="card__media card__media--wide">
+      <video data-zoom data-src="assets/amplia-intervista.mp4" poster="assets/amplia-poster.png" muted loop playsinline preload="none"></video>
+      <span class="tag">Video · 1'55"</span>
+    </div>
+    <div class="card__info card__info--3">
+      <span class="num">01</span>
+      <h3 class="card__title card__title--lg"><span class="it">Video intervista</span><span class="en">Video interview</span> <span class="serif-muted">— Amplia Infrastructures</span></h3>
+      <span class="label tr">Motion graphics · 2026</span>
+    </div>
+  </article>
+
+  <div class="carousel-bar" data-reveal="up">
+    <span class="label"><span id="car-pos">01</span> / 04</span>
+    <div class="carousel-bar__btns">
+      <button type="button" class="round-btn" id="car-prev" aria-label="Precedente">←</button>
+      <button type="button" class="round-btn" id="car-next" aria-label="Successivo">→</button>
+    </div>
+  </div>
+
+  <div class="track" id="track">
+    <article class="card card--slide" data-project="2" data-cursor="play" data-reveal="up">
+      <div class="card__media">
+        <video data-zoom data-src="assets/artner.mp4" poster="assets/artner-poster.png" muted loop playsinline preload="none"></video>
+        <span class="tag">Video · 1'03"</span>
+      </div>
+      <div class="card__info">
+        <span class="num">02</span>
+        <div class="card__text">
+          <h3 class="card__title"><span class="it">Presentazione Artner</span><span class="en">Artner presentation</span></h3>
+          <span class="label">OkOne · Motion graphics · 2025</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card card--slide" data-project="3" data-cursor="open" data-reveal="up" data-delay="120">
+      <div class="card__media card__media--light">
+        <img data-zoom src="assets/goliosi-sistema.jpg" alt="Goliosi — sistema del marchio" style="object-position:70% 50%">
+        <img data-alt src="assets/goliosi-mockup.jpg" alt="Goliosi — applicazioni" style="object-position:40% 50%">
+        <span class="tag">Branding</span>
+      </div>
+      <div class="card__info">
+        <span class="num">03</span>
+        <div class="card__text">
+          <h3 class="card__title">Branding Goliosi</h3>
+          <span class="label"><span class="it">Piattaforma digitale</span><span class="en">Digital platform</span> · Branding · 2022</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card card--slide" data-project="4" data-cursor="open" data-reveal="up" data-delay="240">
+      <div class="card__media">
+        <img data-zoom src="assets/oculus-finale.jpg" alt="Compositing Oculus — immagine finale" style="object-position:50% 70%">
+        <img data-alt src="assets/oculus-costruzione.jpg" alt="Compositing Oculus — costruzione del soggetto" style="object-position:50% 70%">
+        <span class="tag">Compositing</span>
+      </div>
+      <div class="card__info">
+        <span class="num">04</span>
+        <div class="card__text">
+          <h3 class="card__title">Compositing Oculus</h3>
+          <span class="label">Oculus · Photoshop · 2022</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card card--slide" data-project="5" data-cursor="play" data-reveal="up" data-delay="360">
+      <div class="card__media">
+        <img class="card__blur" src="assets/audiofactory-poster.png" alt="">
+        <video data-zoom data-src="assets/audiofactory-reel.mp4" poster="assets/audiofactory-poster.png" muted loop playsinline preload="none" style="object-fit:contain"></video>
+        <span class="tag">Reel · 0'21"</span>
+      </div>
+      <div class="card__info">
+        <span class="num">05</span>
+        <div class="card__text">
+          <h3 class="card__title">Reel AudioFactory</h3>
+          <span class="label">AudioFactory · Social media · 2024</span>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- Chi sono -->
+<section id="chi-sono" class="about">
+  <div class="split">
+    <div class="split__side label" data-reveal="up"><span class="it">(Chi sono)</span><span class="en">(About)</span></div>
+    <p class="about__lead" data-reveal="up">
+      <span class="it">Costruisco identità, immagini in movimento e contenuti che parlano <em class="accent-serif">la stessa lingua</em> — su carta, su schermo, nel feed.</span>
+      <span class="en">I build identities, moving images and content that speak <em class="accent-serif">the same language</em> — on paper, on screen, in the feed.</span>
+    </p>
+  </div>
+
+  <div class="stats">
+    <div class="stat" data-reveal="up">
+      <span class="stat__big">2+</span>
+      <p style="max-width:300px"><span class="it">Anni di esperienza come grafico, video editor e social media manager.</span><span class="en">Years of experience as a graphic designer, video editor and social media manager.</span></p>
+    </div>
+    <div class="stat" data-reveal="up" data-delay="100">
+      <span class="stat__big">AANT</span>
+      <p style="max-width:320px"><span class="it">Laurea triennale in Art Direction, Advertising &amp; Multimedia — Accademia delle Arti e Nuove Tecnologie, Roma.</span><span class="en">Bachelor's degree in Art Direction, Advertising &amp; Multimedia — Academy of Arts and New Technologies, Rome.</span></p>
+    </div>
+  </div>
+
+  <div class="split skills-wrap">
+    <div class="split__side label" data-reveal="up"><span class="it">(Competenze)</span><span class="en">(Skills)</span></div>
+    <div class="skills">
+      <div class="skills__col" data-reveal="up">
+        <span class="label skills__head"><span class="it">Grafica &amp; editoria</span><span class="en">Graphics &amp; print</span></span>
+        <span class="skills__item">Adobe Creative Cloud</span>
+        <span class="skills__item"><span class="it">Illustrazione a mano e digitale</span><span class="en">Hand &amp; digital illustration</span></span>
+        <span class="skills__item"><span class="it">Editoria e stampa</span><span class="en">Editorial &amp; print</span></span>
+        <span class="skills__item"><span class="it">Strumenti AI</span><span class="en">AI tools</span></span>
+      </div>
+      <div class="skills__col" data-reveal="up" data-delay="100">
+        <span class="label skills__head">Video &amp; motion</span>
+        <span class="skills__item"><span class="it">Ripresa video</span><span class="en">Video shooting</span></span>
+        <span class="skills__item"><span class="it">Montaggio</span><span class="en">Editing</span></span>
+        <span class="skills__item">Motion graphics</span>
+      </div>
+      <div class="skills__col" data-reveal="up" data-delay="200">
+        <span class="label skills__head">Web &amp; social</span>
+        <span class="skills__item">Web design</span>
+        <span class="skills__item"><span class="it">WordPress — frontend e database</span><span class="en">WordPress — frontend &amp; database</span></span>
+        <span class="skills__item">Social media management</span>
+        <span class="skills__item"><span class="it">SEO e indicizzazione</span><span class="en">SEO &amp; indexing</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contatti -->
+<section id="contatti" class="contact">
+  <div class="label contact__kicker" data-reveal="up"><span class="it">(Contatti)</span><span class="en">(Contact)</span></div>
+  <div class="mask"><h2 class="contact__big" data-reveal="line"><span class="it">Lavoriamo</span><span class="en">Let's work</span></h2></div>
+  <div class="mask"><h2 class="contact__serif" data-reveal="line" data-delay="100"><span class="it">insieme.</span><span class="en">together.</span></h2></div>
+  <div class="contact__row" data-reveal="up">
+    <a href="mailto:massi.campitelli@gmail.com" class="contact__mail">massi.campitelli@gmail.com</a>
+    <div class="pills">
+      <a href="assets/massimo-campitelli-cv-2025-26.pdf" target="_blank" rel="noopener" class="pill">CURRICULUM ↗</a>
+      <a href="https://drive.google.com/file/d/1CTz5JDw5uN5cvBCBmL51KSEceaMy4Frn/view" target="_blank" rel="noopener noreferrer" class="pill">PORTFOLIO ACCADEMICO ↗</a>
+      <a href="https://www.linkedin.com/in/massimo-campitelli-9b2755239/" target="_blank" rel="noopener noreferrer" class="pill">LinkedIn ↗</a>
+    </div>
+  </div>
+  <footer class="footer label">
+    <span>© 2026 Massimo Campitelli</span>
+    <a href="#top"><span class="it">Torna su ↑</span><span class="en">Back to top ↑</span></a>
+  </footer>
+</section>
+
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<!-- Project overlay -->
+<div class="overlay" id="overlay" hidden>
+  <div class="overlay__bar">
+    <span class="overlay__count"><span id="ov-n">01</span> / 05</span>
+    <button type="button" class="overlay__close" id="ov-close"><span data-l="close">Chiudi</span> ✕</button>
+  </div>
+  <div class="overlay__head">
+    <h2 class="overlay__title" id="ov-title"></h2>
+    <div class="overlay__facts">
+      <div class="fact"><span class="label" data-l="client"></span><span id="ov-client"></span></div>
+      <div class="fact"><span class="label" data-l="disc"></span><span id="ov-disc"></span></div>
+      <div class="fact"><span class="label" data-l="year"></span><span id="ov-year"></span></div>
+      <div class="fact"><span class="label" data-l="role"></span><span id="ov-role"></span></div>
+    </div>
+    <p class="overlay__desc" id="ov-desc"></p>
+  </div>
+  <div class="overlay__media" id="ov-media"></div>
+  <button type="button" class="overlay__next" id="ov-next">
+    <span class="label" data-l="next"></span>
+    <span class="overlay__next-title"><span id="ov-next-title"></span> →</span>
+  </button>
+</div>
+
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
